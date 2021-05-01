@@ -28,7 +28,7 @@ def calculator(f,s):
     querystring = {"fname":f"{f}","sname":f"{s}"}
 
     headers = {
-        'x-rapidapi-key': "7f119531abmsh0fdb7cd00e5a13bp152b0cjsnd4b793db18d7",
+        'x-rapidapi-key': "Your Rapid API Key",
         'x-rapidapi-host': "love-calculator.p.rapidapi.com"}
 
     response = requests.request("GET", url, headers=headers, params=querystring).json()
