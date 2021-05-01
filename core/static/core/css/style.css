@@ -1,0 +1,16 @@
+
+h1{
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 3.5rem;
+}
+.btn-funky-moon {
+background: #A770EF;  
+background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); 
+background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); 
+color: #fff;
+border: 3px solid #eee;
+}
+
+.btn-rounded {
+border-radius: 35px;
+}
